@@ -1018,7 +1018,9 @@ h4 {
         height: 320px;
     }
 }
-
+.FooterLinks {
+    line-height: 2;
+}
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
