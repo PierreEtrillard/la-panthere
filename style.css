@@ -684,9 +684,10 @@ p {
     font-weight: 700;
 }
 
-.social {
+.social a {
     max-width: 400px;
     margin: auto auto auto auto;
+    line-height: 3;
 }
 
 h2 {
