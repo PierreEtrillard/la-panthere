@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "minify": "^8.0.4"
+  },
+  "devDependencies": {
+    "purify-css": "^1.2.5"
   }
 }
