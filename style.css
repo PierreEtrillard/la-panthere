@@ -685,9 +685,9 @@ p {
 }
 
 .social a {
-    max-width: 400px;
+    font-size: 30px;
     margin: auto auto auto auto;
-    line-height: 3;
+    color:  rgba(255,255,255,.7);
 }
 
 h2 {
@@ -1039,3 +1039,18 @@ h4 {
 #link {
     color:black
 }
+:focus {
+    border: solid black 1px;
+    border-radius: 10px;
+    box-shadow:  0px 0px 10px 2px #364577 ;
+}
+.DarkBg:focus  {
+    color: #FFFFFF;
+    box-shadow:  0px 0px 10px 2px white;
+}   
+a.social:focus  {
+    color: #364577;
+   background-color: #FFFFFF;
+   box-shadow:  0px 0px 51px 2px white;
+   border: transparent;
+}   
