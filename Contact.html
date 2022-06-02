@@ -103,7 +103,7 @@
 		<div class="row">
 			<div class="col-sm-6">
 				<h2 tabindex="0">Nous contacter</h2>
-				<form id="form_1" aria-label="coordonnees" method="post" action="includes/form_1.php" novalidate success-msg="message envoyé !" data-fail-msg="erreur, verifier l'exactitude des information saisies.">
+				<form id="form_1" aria-label="coordonnees" method="post" action="includes/form_1.php" novalidate data-success-msg="message envoyé !" data-fail-msg="erreur, verifier l'exactitude des information saisies.">
 					<div class="form-group">
 						<label for="name" tabindex="0">Quel est votre nom ?<br></label>
 						<input id="name" placeholder="Renseignez vos nom et prenom ici" type="text" class="form-control" required />
@@ -120,9 +120,8 @@
 						<label for="message" tabindex="0">Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>						</label>
 						<textarea id="message" placeholder="Indiquez par exemple: Si vous êtes un particulier ou un professionel. Vos delais de realisations. Vos goûts en matière de design. L'idée général que vous souhaitez que vos visiteur retiennent.." class="form-control" rows="4" cols="50" required aria-required=true></textarea>
 					</div> 
-					<input class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
-						Envoyer
-					</input>
+					<input class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" value="Envoyer"/>
+						
 				</form>
 			</div>
 			<div class="col-sm-6">
