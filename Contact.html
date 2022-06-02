@@ -103,26 +103,26 @@
 		<div class="row">
 			<div class="col-sm-6">
 				<h2 tabindex="0">Nous contacter</h2>
-				<form id="form_1" aria-label="coordonnees" novalidate data-success-msg="message envoyé !" data-fail-msg="erreur technique veillez, réessayer plus tard et nous excuser de ce dérangement.">
+				<form id="form_1" aria-label="coordonnees" method="post" action="includes/form_1.php" message envoyé !" data-fail-msg="erreur, verifier l'exactitude des information saisies.">
 					<div class="form-group">
 						<label for="name" tabindex="0">Quel est votre nom ?<br></label>
-						<input id="name" class="form-control" required />
+						<input id="name" placeholder="Renseignez vos nom et prenom ici" type="text" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label for="email" tabindex="0">Quel est votre Adresse email	<br></label>
-						<input id="email" class="form-control" type="email" required />
+						<label for="email" tabindex="0">Quel est votre Adresse email ?<br></label>
+						<input id="email" placeholder="example@mail.com" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
 						<label for="precision" tabindex="0">	Comment nous avez-vous connu ?<br></label>
-						<input id="precision" class="form-control" type=text />
+						<input id="precision" placeholder="(Facultatif)" class="form-control" type=text />
 					</div>
 					<div class="form-group">
 						<label for="message" tabindex="0">Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>						</label>
-						<textarea id="message" class="form-control" rows="4" cols="50" required aria-required=true></textarea>
+						<textarea id="message" placeholder="Indiquez par exemple: Si vous êtes un particulier ou un professionel. Vos delais de realisations. Vos goûts en matière de design. L'idée général que vous souhaitez que vos visiteur retiennent.." class="form-control" rows="4" cols="50" required aria-required=true></textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+					<input class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
-					</button>
+				</input>
 				</form>
 			</div>
 			<div class="col-sm-6">
