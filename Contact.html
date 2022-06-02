@@ -103,7 +103,7 @@
 		<div class="row">
 			<div class="col-sm-6">
 				<h2 tabindex="0">Nous contacter</h2>
-				<form id="form_1" aria-label="coordonnees" method="post" action="includes/form_1.php" message envoyé !" data-fail-msg="erreur, verifier l'exactitude des information saisies.">
+				<form id="form_1" aria-label="coordonnees" method="post" action="includes/form_1.php" novalidate success-msg="message envoyé !" data-fail-msg="erreur, verifier l'exactitude des information saisies.">
 					<div class="form-group">
 						<label for="name" tabindex="0">Quel est votre nom ?<br></label>
 						<input id="name" placeholder="Renseignez vos nom et prenom ici" type="text" class="form-control" required />
@@ -122,7 +122,7 @@
 					</div> 
 					<input class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
-				</input>
+					</input>
 				</form>
 			</div>
 			<div class="col-sm-6">
