@@ -1049,5 +1049,5 @@ a.social:focus  {
    border: transparent;
 }   
 input:invalid {
-    border: 2px dashed rgb(170, 8, 8);
+    box-shadow:  0px 0px 4px 1px rgb(170, 8, 8);
   }
